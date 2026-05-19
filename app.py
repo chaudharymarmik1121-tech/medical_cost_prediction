@@ -80,7 +80,7 @@ def main():
             "Region",
             options=["southwest", "southeast", "northwest", "northeast"],
         )
-        submit = st.form_submit_button("Read", use_container_width=True)
+        submit = st.form_submit_button("🔮 Estimate Prediction", use_container_width=True)
 
     if submit:
         input_df = pd.DataFrame(

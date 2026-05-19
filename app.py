@@ -11,6 +11,26 @@ from sklearn.preprocessing import OneHotEncoder
 
 st.set_page_config(page_title="Medical Cost Predictor", page_icon=":hospital:", layout="wide")
 
+st.markdown(
+    """
+    <style>
+    div.stFormSubmitButton > button {
+        background-color: #16a34a;
+        color: white;
+        border: none;
+        font-size: 18px;
+        font-weight: 700;
+    }
+    div.stFormSubmitButton > button:hover {
+        background-color: #15803d;
+        color: white;
+        border: none;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True,
+)
+
 
 @st.cache_data
 def load_data() -> pd.DataFrame:
@@ -80,7 +100,7 @@ def main():
             "Region",
             options=["southwest", "southeast", "northwest", "northeast"],
         )
-        submit = st.form_submit_button("🔮 Estimate Prediction", use_container_width=True)
+        submit = st.form_submit_button("Estimate Prediction", use_container_width=True, type="primary")
 
     if submit:
         input_df = pd.DataFrame(

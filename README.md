@@ -1,6 +1,5 @@
 # 🏥 Medical Cost Prediction
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-RandomForest-orange?logo=scikit-learn)
 ![License](https://img.shields.io/badge/License-Educational-green)
@@ -11,10 +10,6 @@
 ---
 
 ## 🚀 Live Demo
-
-Click the button below to open the live prediction app:
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)
 
 🔗 **[https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)**
 

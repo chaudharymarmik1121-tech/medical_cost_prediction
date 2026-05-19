@@ -80,7 +80,7 @@ def main():
             "Region",
             options=["southwest", "southeast", "northwest", "northeast"],
         )
-        submit = st.form_submit_button("Estimate Cost")
+        submit = st.form_submit_button("Read", use_container_width=True)
 
     if submit:
         input_df = pd.DataFrame(
@@ -96,7 +96,13 @@ def main():
             ]
         )
         predicted_cost = float(model.predict(input_df)[0])
-        st.success(f"Estimated annual medical charge: ${predicted_cost:,.2f}")
+        st.markdown(
+            f"<div style='text-align:center; padding:24px; background:#ecfdf5; border-radius:12px; border:2px solid #059669;'>"
+            f"<p style='font-size:18px; color:#047857; margin:0;'>Estimated Annual Medical Charge</p>"
+            f"<p style='font-size:52px; font-weight:900; color:#065f46; margin:8px 0 0 0;'>${predicted_cost:,.2f}</p>"
+            f"</div>",
+            unsafe_allow_html=True,
+        )
 
     st.subheader("Dataset Preview")
     st.dataframe(data.head(10), use_container_width=True)

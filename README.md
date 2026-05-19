@@ -1,6 +1,6 @@
 # 🏥 Medical Cost Prediction
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=chaudharymarmik1121-tech/medical_cost_prediction&branch=main&mainModule=app.py)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-RandomForest-orange?logo=scikit-learn)
 ![License](https://img.shields.io/badge/License-Educational-green)
@@ -12,12 +12,11 @@
 
 ## 🚀 Live Demo
 
-Click the button below to run the live prediction app:
+Click the button below to open the live prediction app:
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=chaudharymarmik1121-tech/medical_cost_prediction&branch=main&mainModule=app.py)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)
 
-**Or deploy it yourself in 1 click → [share.streamlit.io](https://share.streamlit.io)**  
-Select this repo → set main file as `app.py` → Deploy ✅
+🔗 **[https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)**
 
 ---
 
@@ -122,16 +121,6 @@ streamlit run app.py
 ```
 
 Open `http://localhost:8501` in your browser.
-
----
-
-## 🌍 Deploy Online (Free)
-
-1. Go to **[share.streamlit.io](https://share.streamlit.io)**
-2. Sign in with GitHub (`chaudharymarmik1121-tech`)
-3. Click **New app** → Select this repository
-4. Set **Main file:** `app.py`
-5. Click **Deploy** → Live URL generated instantly ✅
 
 ---
 

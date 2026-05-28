@@ -156,7 +156,7 @@ df=make_data(); model,mae,r2=train(df)
 st.markdown(f"""
 <div class="hdr">
   <div>
-    <div class="hdr-title">🏥 Medical Insurance Cost Predictor</div>
+    <div class="hdr-title">🏥 Medical Cost Predictor</div>
     <div class="hdr-sub">Chaudhary Marmikkumar Ashvinbhai · 251370680002 · GTU PGDDS Mini Project 2025-26 · Guide: Komal Prajapati</div>
   </div>
   <div class="hdr-chips">
@@ -209,7 +209,7 @@ with left:
 
     st.markdown('</div>', unsafe_allow_html=True)
     st.markdown("")
-    predict = st.button("💰  Calculate Insurance Cost Estimate", use_container_width=True)
+    predict = st.button("💰  Calculate Medical Cost Estimate", use_container_width=True)
 
 with right:
     st.markdown('<div class="result">', unsafe_allow_html=True)
@@ -236,7 +236,7 @@ with right:
         ] if flag]
 
         st.markdown(f"""
-        <div class="r-sub-label">Estimated Annual Insurance Cost</div>
+        <div class="r-sub-label">Estimated Annual Medical Cost</div>
         <div class="r-cost">${cost:,.2f}</div>
         <div class="r-period">${cost/12:,.0f} per month &nbsp;·&nbsp; ${cost/365:,.1f} per day</div>
         <div class="risk-{risk}">{rbadge}</div>
@@ -261,7 +261,7 @@ with right:
             <div class="ph-icon">📋</div>
             <div class="ph-msg">Your estimate will appear here</div>
             <div class="ph-hint">Fill in the patient details on the left<br>
-            then click <b>Calculate Insurance Cost Estimate</b></div>
+            then click <b>Calculate Medical Cost Estimate</b></div>
         </div>
         """, unsafe_allow_html=True)
 

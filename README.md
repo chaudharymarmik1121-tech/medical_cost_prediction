@@ -1,4 +1,4 @@
-# 🏥 Medical Insurance Cost Prediction
+# 🏥 Medical Cost Prediction
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://medicalcostprediction-whigsz4mgzy8rrtyuzqyvs.streamlit.app/)
 ![Python](https://img.shields.io/badge/Python-3.11-blue)
@@ -18,9 +18,9 @@
 
 ## 📌 Problem Statement
 
-Healthcare costs are rising globally. Insurance companies need accurate estimates of annual medical charges to set fair premiums and manage risk.
+Healthcare costs are rising globally. Hospitals, clinics and patients need accurate estimates of annual medical expenses to plan treatment budgets and manage financial risk.
 
-**Goal:** Predict annual medical insurance `charges` (USD) from 13 patient health and demographic parameters using supervised machine learning.
+**Goal:** Predict annual medical `charges` (USD) from 13 patient health and demographic parameters using supervised machine learning.
 
 ---
 
@@ -41,7 +41,7 @@ Healthcare costs are rising globally. Insurance companies need accurate estimate
 | cancer_history       | Binary      | Past or active cancer diagnosis (0 = No, 1 = Yes)         |
 | chronic_infection    | Binary      | Recurring or long-term infection (0 = No, 1 = Yes)        |
 | allergies            | Binary      | Food, drug, or environmental allergies (0 = No, 1 = Yes)  |
-| **charges**          | **Target**  | **Annual insurance charges in USD**                       |
+| **charges**          | **Target**  | **Annual medical cost in USD**                            |
 
 - **Records:** 10,000 synthetic patient records
 - **Features:** 13 health & demographic parameters
@@ -98,7 +98,7 @@ Data Generation → EDA → Preprocessing → Model Training → Evaluation → 
 ├── app.py                                 # Streamlit web application (13 features)
 ├── medical_cost_prediction_complete.ipynb # Full ML analysis notebook
 ├── medical_cost_dataset_extended.csv      # Extended dataset (10,000 records, 13 features)
-├── insurance.csv                          # Original dataset (1,338 records, 6 features)
+├── medical_cost_baseline.csv              # Reference baseline dataset (1,338 records, 6 features)
 ├── requirements.txt                       # Python dependencies
 ├── runtime.txt                            # Python version for Streamlit Cloud
 └── README.md
